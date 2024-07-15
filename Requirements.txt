@@ -1,0 +1,25 @@
+### Requirements
+
+1. **Install Python**
+   - Download and install the latest version of Python from the [official Python website](https://www.python.org/downloads/).
+   - Ensure you check the box to add Python to your PATH during the installation process.
+
+2. **Install `discord.py` Library**
+   - Open a command prompt (Windows) or terminal (macOS/Linux).
+   - Run the following command to install the `discord.py` library:
+     ```bash
+     pip install discord.py
+     ```
+
+3. **Create a Discord Bot**
+   - Go to the [Discord Developer Portal](https://discord.com/developers/applications) and create a new application.
+   - Under the "Bot" tab, create a bot and obtain the bot token.
+   - Copy the bot token and save it in a file named `bot_token.txt` in the same directory as your script.
+
+4. **Set Bot Permissions**
+   - Ensure your bot has the necessary permissions in the server:
+     - `MANAGE_CHANNELS`
+     - `SEND_MESSAGES`
+     - `READ_MESSAGES`
+   - Enable the `Message Intent` and `Guild Intent` in the Discord Developer Portal under the bot settings.
+
